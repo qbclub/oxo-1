@@ -50,8 +50,8 @@ function checkWinner(first, second, third) {
         } else {
             O += 1
         }
-        document.getElementById('you').innerText = document.getElementById('you').innerText.slice(0, -1) + O
-        document.getElementById('me').innerText = document.getElementById('me').innerText.slice(0, -1) + X
+        document.getElementById('you').innerText = O
+        document.getElementById('me').innerText = X
     }
 }
 
